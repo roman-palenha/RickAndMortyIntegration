@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  rickandmortyintegration.webapi:
+    image: ${DOCKER_REGISTRY-}rickandmortyintegrationwebapi
+    build:
+      context: .
+      dockerfile: Dockerfile

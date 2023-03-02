@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMortyIntegration.WebAPI", "RickAndMortyIntegration.WebAPI.csproj", "{BC83E7A4-F16B-49F2-85BD-4146E9993815}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RickAndMortyIntegration.WebAPI", "RickAndMortyIntegration.WebAPI.csproj", "{BC83E7A4-F16B-49F2-85BD-4146E9993815}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMortyIntegration.Domain", "..\RickAndMortyIntegration.Domain\RickAndMortyIntegration.Domain.csproj", "{D6CF9B78-FE1D-4B4A-8F1E-1A3975F05D60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RickAndMortyIntegration.Domain", "..\RickAndMortyIntegration.Domain\RickAndMortyIntegration.Domain.csproj", "{D6CF9B78-FE1D-4B4A-8F1E-1A3975F05D60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMortyIntegration.Business", "..\RickAndMortyIntegration.Business\RickAndMortyIntegration.Business.csproj", "{EB86A402-157A-47F1-849E-CB953C72C317}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RickAndMortyIntegration.Business", "..\RickAndMortyIntegration.Business\RickAndMortyIntegration.Business.csproj", "{EB86A402-157A-47F1-849E-CB953C72C317}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{468DB6CC-25B0-45ED-8030-8315E9155092}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{EB86A402-157A-47F1-849E-CB953C72C317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB86A402-157A-47F1-849E-CB953C72C317}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB86A402-157A-47F1-849E-CB953C72C317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468DB6CC-25B0-45ED-8030-8315E9155092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468DB6CC-25B0-45ED-8030-8315E9155092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468DB6CC-25B0-45ED-8030-8315E9155092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468DB6CC-25B0-45ED-8030-8315E9155092}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
