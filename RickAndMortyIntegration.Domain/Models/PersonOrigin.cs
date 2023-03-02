@@ -1,9 +1,10 @@
 ﻿using Newtonsoft.Json;
 
-namespace RickAndMortyIntegration.Domain.Models.Responses
+namespace RickAndMortyIntegration.Domain.Models
 {
-    public class PersonOrigin
+    internal class PersonOrigin
     {
+
         [JsonProperty("name")]
         public string Name { get; set; }
 
