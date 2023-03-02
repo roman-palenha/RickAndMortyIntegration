@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
+using RickAndMortyIntegration.Business.Validation;
 using RickAndMortyIntegration.Domain.Models;
 using System.Net;
-using RickAndMortyIntegration.Business.Validation;
 
 namespace RickAndMortyIntegration.WebAPI.Extensions
 {
