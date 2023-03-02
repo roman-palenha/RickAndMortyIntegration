@@ -7,7 +7,7 @@ builder.Services.ConfigureCors();
 builder.Services.ConfigureServices();
 builder.Services.AddAutoMapper(typeof(AutomapperProfile));
 builder.Services.AddControllers();
-
+builder.Services.AddMemoryCache();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

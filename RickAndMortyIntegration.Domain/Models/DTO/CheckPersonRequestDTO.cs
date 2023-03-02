@@ -9,5 +9,10 @@ namespace RickAndMortyIntegration.Domain.Models.DTO
 
         [JsonProperty("episodeName")]
         public string EpisodeName { get; set; }
+
+        public override string ToString()
+        {
+            return PersonName + "-" + EpisodeName;
+        }
     }
 }
