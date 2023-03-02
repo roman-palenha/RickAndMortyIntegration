@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace RickAndMortyIntegration.Domain.Models.Requests
+namespace RickAndMortyIntegration.Domain.Models.DTO
 {
     public class CheckPersonRequestDTO
     {

@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RickAndMortyIntegration.Business
+﻿namespace RickAndMortyIntegration.Business
 {
-    public static class Constants
+    public static class RickAndMorty
     {
+        public const string Uri = "https://rickandmortyapi.com/api/";
+        public const string Character = "character/";
+        public const string Episode = "episode/";
+        public const string Name = "?name=";
     }
 }

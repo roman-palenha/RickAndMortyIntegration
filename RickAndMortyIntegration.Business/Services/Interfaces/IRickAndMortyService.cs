@@ -1,11 +1,11 @@
 ﻿using RickAndMortyIntegration.Domain.Models;
-using RickAndMortyIntegration.Domain.Models.Requests;
+using RickAndMortyIntegration.Domain.Models.DTO;
 
 namespace RickAndMortyIntegration.Business.Services.Interfaces
 {
     public interface IRickAndMortyService
     {
-        bool CheckPerson(CheckPersonRequestDTO checkPersonDto);
-        Person GetPerson(string name);
+        Task<bool> CheckPerson(CheckPersonRequestDTO checkPersonDto);
+        Task<Person> GetPerson(string name);
     }
 }
