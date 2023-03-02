@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMortyIntegration.WebAPI", "RickAndMortyIntegration.WebAPI.csproj", "{BC83E7A4-F16B-49F2-85BD-4146E9993815}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMortyIntegration.Domain", "..\RickAndMortyIntegration.Domain\RickAndMortyIntegration.Domain.csproj", "{D6CF9B78-FE1D-4B4A-8F1E-1A3975F05D60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BC83E7A4-F16B-49F2-85BD-4146E9993815}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC83E7A4-F16B-49F2-85BD-4146E9993815}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC83E7A4-F16B-49F2-85BD-4146E9993815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6CF9B78-FE1D-4B4A-8F1E-1A3975F05D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6CF9B78-FE1D-4B4A-8F1E-1A3975F05D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6CF9B78-FE1D-4B4A-8F1E-1A3975F05D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6CF9B78-FE1D-4B4A-8F1E-1A3975F05D60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
